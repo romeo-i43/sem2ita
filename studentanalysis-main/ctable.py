@@ -23,7 +23,7 @@ def app():
     st.title("Classification based on your requirement")
     st.markdown('<head><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>',unsafe_allow_html=True)
     st.markdown('---')
-    df=pd.read_csv('/studentanalysis-main/sample.csv')
+    df=pd.read_csv(/studentanalysis-main/sample.csv)
     st.sidebar.header("customtable")
     g=st.sidebar.radio("classify based on",('roll_no','cgpa','duesubjects'))
     if g=='roll_no':
