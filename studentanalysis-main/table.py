@@ -21,5 +21,5 @@ def app():
     st.subheader('table')
     st.markdown('<head><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>',unsafe_allow_html=True)
     st.markdown('---')
-    df=pd.read_csv('sample.csv')
+    df=pd.read_csv('/studentanalysis-main/sample.csv')
     st.dataframe(df)
