@@ -17,6 +17,7 @@ def app():
             </head>
             """
     st.markdown(hide_st_style, unsafe_allow_html=True)
+    st.write("developed by CH.PREMCHAND")
     def load_lottieurl(url: str):
         r = requests.get(url)
         if r.status_code != 200:
